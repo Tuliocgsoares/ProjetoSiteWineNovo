@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Lato:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+#mkt-topo {
+    display: block;
+    height: 42px;
+    width: 100%;
+    padding: 1px 0;
+    background: #111111 url(https://img.wine.com.br/optimize/2022/topo/16-08-22-pendura-frete-gratis.gif) no-repeat center center;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.top-marketing{
+  background-color: #111111;
+  padding: 15px 15px 10px 15px;
+  color: white;
+  text-align: center;
+  font-family: 'Lato', Arial, sans-serif bold;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.top-marketing .ganhe{
+    color:gold;
+}
+
+.menu{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.winelogo{
+    position: static;
+    width: 85px;
+    height: 85px;
+}
+
+.winelogo-carrinho{
+    width: 120px;
+    height: 120px;
+}
+
+.iconify-search-top{
+    font-size: 50px;
+    padding-top: 17px;
+    margin-right: 40px;
+}
+
+.iconify-carrinho-top{
+   font-size: 50px;
+   padding-top: 17px;
+}
+
+
+.img-index-wine{
+    width: 1903px;
+    height: 500px;
+}
+
+header .menu .menu-services ul{
+    bottom: 10;
+    box-shadow: 1px 1px 5px; 
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+}
+
+header .menu ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+header ul a{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight:400;
+    color:#666666;
+    box-sizing: border-box;
+    border-bottom-width: 6px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.ofertas-especiais{
+    background-color: #f5f5f5;
+}
+
+.seja-socio{
+   text-align: center;
+   align-items: center;
+   padding: 10px 10px 10px 10px;
+}
+
+.socio h3{
+    width: 100%;
+    height: 100%;
+    color: #c81a78;
+    padding: 10px 10px 10px 10px;
+}
+
+.dezembro{
+    color: #c81a78 bold;
+}
+
+.max-width-header{
+  background-color: #f5f5f5;
+  color: #666666;
+}
+
+.tex-socio{
+    background-color:#111111;
+    color:white;
+    font-size: 28px;
+    font-family: 'Lato', Arial, sans-serif bold;
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+}
+
+.visually-hidden{
+    color: darkblue;
+    font-size: 10px;
+}
+.button{
+    
+    background-color: #111;
+    font-size: 20px;
+    color: #c81a78;
+}
+
+.true{
+    color: darkorange;
+}
+
+
+#bebidas{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+    row-gap: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px 30px 100px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lato', Arial, sans-serif;
+    color: #111;
+}
+.text-title-products{
+    color: black;
+    font-family: 'Lato', sans-serif bold;
+}
+
+.price-socio{
+    color: #c81a78;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.price-not-socio{
+    color: black;
+    font-family: 'Lato', sans-serif bold;
+
+}
+
+.old-price{
+    color: black;
+    font-family: 'Lato', sans-serif bold;
+    font-size: 13px;
+    text-align: center;
+}
+
+.socialmedia{
+    background-color: #666666;
+}
+
+.sci{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.img-header{
+    background-color: #f5f5f5;
+}
+
+.img-001 h5{
+    padding: auto;
+}
+
+.ofertas-especiais-whisky{
+    padding: 20px 0px 0px 0px;
+    background-color: #f5f5f5;
+    text-align: center;
+    color: black;
+    font-family: 'Lato', Arial, sans-serif bold;
+}
+
+.ofertas-especiais-vinhos{
+    padding: 20px 0px 0px 0px;
+    background-color: #f5f5f5;
+    text-align: center;
+    color: black;
+    font-family: 'Lato', Arial, sans-serif bold;
+}
+
+.flexrow{
+    font-family: 'Lato', Arial, sans-serif bold;
+    position: relative;
+    display: flex;
+
+}
+
+main{
+    background-color: white;
+}
+
+.img-whisky-header img{
+    width: 30%;
+    height: 30%;
+}
+
+
+section .vinhos{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+footer{
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', Arial, sans-serif bold;
+
+}
+
+.TDR{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    color: #111;
+    text-align:  center;
+    font-family: 'Lato', Arial, sans-serif bold;
+}
+
+ul .tex-shop-1-1{
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.text-shop-1{
+    width:100%;
+    height: 17px;
+    font: 14px;
+    color: #1d1d1b;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+
+
+}
+
+.img-index-wine-2{
+    width: 1903px;
+    height: 150px;
+    align-items: center;
+}
+
+.tex-shop-1-1{
+    color: #666;
+    padding: 10px 50px 50px 0px;
+}
+
+.tex-shop-1-1 li{
+    padding: 1px;
+}
+
+li {
+    list-style-type: none;
+    color: #666;
+    width: 170px;
+
+  }
+  
+
+  li a{
+    text-decoration: none;
+    color: #666;
+  }
+
+.row{
+    margin-right: -15px;
+    margin-left:  -15px;
+}
+
+.Footer__separator{
+    margin-top: 20px;
+    border: 0.10 solid #d5d5d5;
+    padding: 0px 0 0;
+    box-sizing: border-box;
+}
+
+.text-shop-2{
+    width:100%;
+    height: 17px;
+    font: 14px;
+    color: #1d1d1b;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+}
+
+#footer-001{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 10px 10px 10px ;
+}
+
+.text-rodape-site{
+    background-color: white;
+    width: 100%;
+    height:100%;
+    padding: 50px 50px 50px 50px;
+    color: white;
+}
+
+.social-media-text{
+    width:100%;
+    height: 17px;
+    font: 14px;
+    color: #1d1d1b;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+}
+
+.list-social-media{
+    color: #666;
+    padding: 10px 50px 50px 0px;
+}
+
+.list-social-media li{
+    position: flex;
+    display: inline;
+
+
+    
+}
+
+.list-social-media li .iconify{
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+}
+
+.img-champanhe-header-3 img{
+    width: 16%;
+    height: 2%;
+}
+
+.img-champanhe-header-2 img{
+    width: 25%;
+    height: 7%;
+}
+
+.img-champanhe-header-1 img{
+    width: 21%;
+    height: 15%;
+    align-items: center;
+}
+
+.seBeber{
+    color: #1d1d1b;
+    font-family: 'Lato', Arial, sans-serif bold;
+}

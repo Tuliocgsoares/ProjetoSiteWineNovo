@@ -1,0 +1,72 @@
+body {
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.fraseInicial {
+    font-size: 1.75rem;
+}
+
+#email {
+    display: flex;
+    height: 56px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 8px;
+    color: rgb(51, 51, 51);
+    font-family: Roboto;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding: 27px 16px 10px;
+    margin: auto;
+}
+
+#password {
+    display: flex;
+    height: 56px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 8px;
+    color: rgb(51, 51, 51);
+    font-family: Roboto;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding: 27px 16px 10px;
+    margin: auto;
+}
+
+.loginButton {
+    outline: none;
+    border-radius: 24px;
+    font-size: 14px;
+    padding: 12px;
+    font-family: Roboto;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 0, 0);
+    background-color: #0d6efd;
+    border: 1px solid #0a58ca;
+    width: 12rem;
+    text-align: center;
+}
+
+.TDR {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    color: #111;
+    text-align:  center;
+    font-family: 'Lato', Arial, sans-serif bold;
+}
+
+.seBeber {
+    color: #1d1d1b;
+    font-family: 'Lato', Arial, sans-serif bold;
+}

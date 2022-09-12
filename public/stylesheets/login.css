@@ -51,8 +51,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     color: rgb(0, 0, 0);
-    background-color: #0d6efd;
-    border: 1px solid #0a58ca;
+    background-color: #DD88F7;
+    border: 1px solid #B06cc4;
     width: 12rem;
     text-align: center;
 }
@@ -69,4 +69,24 @@ body {
 .seBeber {
     color: #1d1d1b;
     font-family: 'Lato', Arial, sans-serif bold;
+}
+
+.esqueciSenha {
+    cursor: pointer;
+    color: #DD88F7;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+.novoCadastro {
+    cursor: pointer;
+    color: #DD88F7;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.divisor {
+    height: 0px;
+    width: 200px;
 }

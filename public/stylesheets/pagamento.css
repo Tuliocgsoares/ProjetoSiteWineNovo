@@ -421,3 +421,75 @@ li {
     color: #1d1d1b;
     font-family: 'Lato', Arial, sans-serif bold;
 }
+
+/*Pagamento CSS*/
+
+.pay-001{
+    background-color: #c81a78;
+    width: 75%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family:'Lato', Arial, sans-serif bold;
+    font-size: 25px;
+}
+
+.qrcode-img-pay{
+    width: 270px;
+    height: 270px;
+    display: block;
+    margin-left: 235px;
+    margin-right: auto;
+    padding-top: 20px;
+
+}
+
+.tex-pay-now{
+    background-color: #c81a78;
+    width: 14%;
+    height: 14%;
+    margin-left: 239px;
+    text-align: center;
+}
+
+.tex-pagamento-qrcode{
+    background-color: #c81a78;
+    color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px ;
+}
+
+.pix-logo-pay{
+    width: 70px;
+    height: 90px;
+    display: block;
+    margin-left: 235px;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.img-pay-and-qrcode{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    
+}
+
+.pix-logo-text{
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 87.5%;
+    padding-left: 13.5%;
+    font-size: 15px;
+
+}

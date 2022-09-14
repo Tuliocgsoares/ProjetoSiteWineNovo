@@ -11,7 +11,10 @@ const checkoutRouter = require('./routes/checkout');
 const cadastroRouter = require('./routes/cadastro');
 const novaSenhaRouter = require('./routes/novaSenha');
 const pagamentoRouter = require('./routes/pagamento');
-
+const perfilUsuarioRouter = require('./routes/perfilUsuario');
+const historicoPedidosRouter = require('./routes/historicoPedidos');
+const produtosRouter = require('./routes/produtos');
+const sobreRouter = require('./routes/sobre');
 
 const app = express();
 
@@ -32,6 +35,10 @@ app.use('/checkout', checkoutRouter);
 app.use('/cadastro', cadastroRouter);
 app.use('/novaSenha', novaSenhaRouter);
 app.use('/pagamento', pagamentoRouter);
+app.use('/perfilUsuario', perfilUsuarioRouter);
+app.use('/historicoPedidos', historicoPedidosRouter);
+app.use('/produtos', produtosRouter);
+app.use('/sobre', sobreRouter);
 
 
 // catch 404 and forward to error handler

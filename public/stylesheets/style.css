@@ -2474,22 +2474,6 @@ textarea.form-control-lg {
   margin-left: -1.5em;
 }
 
-.form-check-input {
-  width: 1em;
-  height: 1em;
-  margin-top: 0.25em;
-  vertical-align: top;
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  border: 1px solid rgba(0, 0, 0, 0.25);
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  -webkit-print-color-adjust: exact;
-          color-adjust: exact;
-}
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
 }

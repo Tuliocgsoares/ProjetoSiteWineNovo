@@ -3253,6 +3253,7 @@ textarea.form-control-lg {
   margin-left: -1.5em;
 }
 
+ HEAD
 .form-check-input {
   width: 1em;
   height: 1em;
@@ -3267,6 +3268,7 @@ textarea.form-control-lg {
      -moz-appearance: none;
           appearance: none;
 }
+
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
 }

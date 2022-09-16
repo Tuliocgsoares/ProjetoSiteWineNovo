@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/stylesheets/cadastro.css">
-    <title>Login page</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title> Wine Mix </title>
 </head>
-<body>
+
+<!--header-->
+<%- include('./partials/header') %>
+<!-- header-->
+
+
+<main>
+    <body>
         <form>
             <img src="images/wine - logo top.svg" alt="Website logo" width="175" height="56">
             <p class="fraseInicial">Criar conta:</p>
@@ -37,12 +46,11 @@
             </div>
         </form>
     <br>
-    <footer class="rodape-site">
-            <div class="TDR">
-                <p> © Copyright 2022 - W2W E-Commerce de Vinhos S.A - CNPJ: 09.813.204/0002-05  </p>
-                <p class="seBeber"> SE BEBER, NÃO DIRIJA. APRECIE COM MODERAÇÃO. A VENDA DE BEBIDAS ALCOÓLICAS É PROIBIDA PARA MENORES DE 18 ANOS. </p>
-            </div>
-    </footer>
 
-</body>
+   <!--footer-->
+   <%- include('./partials/footer') %>
+   <!-- footer-->
+
+        </body>
+    </main>
 </html>

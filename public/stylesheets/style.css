@@ -3254,6 +3254,10 @@ textarea.form-control-lg {
 }
 
  HEAD
+ HEAD
+
+ atualizacaoPaginasIntegracao
+ 
 .form-check-input {
   width: 1em;
   height: 1em;
@@ -3269,6 +3273,10 @@ textarea.form-control-lg {
           appearance: none;
 }
 
+HEAD
+
+ main
+ 
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
 }

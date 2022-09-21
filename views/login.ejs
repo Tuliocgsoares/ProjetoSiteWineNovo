@@ -7,33 +7,31 @@
     <link rel="stylesheet" href="/stylesheets/style.css">
     <title>Login page</title>
 </head>
-<body>
+<body class="">
        
-    <!--header-->
-    <%- include('./partials/header') %>
-    <!-- header-->
+   
 
-    <form>
-            <img src="images/wine - logo top.svg" alt="Website logo" width="175" height="56">
-            <p class="fraseInicial">Entrar com e-mail e senha:</p>
+    <form class="pagina-login-css">
+            <img class="img-pagina-login-logo-wine" src="images/wine - logo top.svg" alt="Website logo" width="175" height="56">
+            <p class="entrar-com-email"> Entrar com e-mail e senha </p>
             <div class="form">
                 <input type="text" name="email" id="email" placeholder="e-mail">
                 <br>
                 <input type="password" name="senha" id="password" placeholder="senha">
                 <br>
-                <div class="checkbox">
+                <div class="checkbox-login">
                     <label> <input type="checkbox" name="rememberMe" value="rememberMe">Lembrar meu login</label>
                 </div>
                 <br>
                 <!--<input type="submit" value="entrar" class="Loginbutton">-->
-                <button type="submit" class="loginButton">Entrar</button>
+                <button type="submit" class="loginButton"> Entrar </button>
                 <br>
             </div>
             <div>
                 <br>
                 <a href="/novaSenha" class="esqueciSenha">Esqueci a senha</a>
                 <hr class="divisor">
-                <a href="/cadastro" class="novoCadastro">Novo cadastro</a>
+                <a href="/cadastro" class="novoCadastro-login"> Novo cadastro </a>
             </div>
         </form>
     <br>

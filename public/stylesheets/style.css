@@ -138,14 +138,13 @@ ul .tex-shop-1-1{
 }
 
 .row{
-  margin-right: -15px;
-  margin-left:  -15px;
+  margin-right: 15px;
+  margin-left:  15px;
 }
 
 .Footer__separator{
   margin-top: 20px;
   border: 0.10 solid #d5d5d5;
-  padding: 0px 0 0;
   box-sizing: border-box;
 }
 
@@ -269,12 +268,14 @@ li a{
     color:white;
     font-size: 28px;
     font-family: 'Lato', Arial, sans-serif bold;
-    padding: 40px 40px 40px 40px;
     text-align: center;
+    padding: 20px 20px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 75%;
+    height: 100%;
 
-    display: block;
-   margin-left: auto;
-   margin-right: auto;
 }
 
 .button{
@@ -337,7 +338,7 @@ li a{
 }
 
 .ofertas-especiais-whisky{
-    padding: 20px 0px 0px 0px;
+    padding: 20px 20px 20px 20px;
     background-color: #f5f5f5;
     text-align: center;
     color: black;
@@ -345,11 +346,17 @@ li a{
 }
 
 .ofertas-especiais-vinhos{
-    padding: 20px 0px 0px 0px;
-    background-color: #f5f5f5;
+    background-color: #c81a78;
     text-align: center;
-    color: black;
+    color: white;
     font-family: 'Lato', Arial, sans-serif bold;
+    width: 75%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .flexrow{
@@ -419,30 +426,63 @@ section .vinhos{
 
 /* Inicio Pagina Cadastro */
 
-body {
-  background-color: #f5f5f5;
-  font-family: sans-serif;
-  text-align: center;
+.crie-sua-conta {
+  font-size: 25px;
+  font-family: 'Lato', Arial, sans-serif bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.fraseInicial {
-  font-size: 1.75rem;
+
+.pagina-cadastro-background{
+  background-color: #c81a78;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.alinhar-dois-itens{
+  display: flex;
+  justify-content: center;
+}
+
+.pagina-cadastro-color{
+  background-color: #c81a78;
+}
+
+.img-pagina-cadastro-logo-wine{
+  width: 10%;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+.checkbox{
+  padding-left: 10px;
+}
+
+.img-pagina-cadastro{
+  display:contents;
 }
 
 #sobrenome, #email, #nome, #sobrenome, #password, #endereco {
   display: flex;
-  height: 56px;
+  width: 400px;
+  height: 50px;
   background: rgb(255, 255, 255);
   border: 1px solid rgb(204, 204, 204);
   border-radius: 8px;
   color: rgb(51, 51, 51);
-  font-family: Roboto;
-  font-weight: lighter;
+  font-family: 'Lato', Arial, sans-serif bold;
   font-size: 20px;
   line-height: 20px;
   box-sizing: border-box;
   padding: 27px 16px 10px;
   margin: auto;
+  
 }
 
 .loginButton {
@@ -455,13 +495,13 @@ body {
   text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
-  color: rgb(0, 0, 0);
+  color: white;
   background-color: #DD88F7;
   border: 1px solid #B06cc4;
   width: 12rem;
   text-align: center;
 }
-
+/*
 .TDR {
   background-color: white;
   width: 100%;
@@ -475,11 +515,12 @@ body {
   color: #1d1d1b;
   font-family: 'Lato', Arial, sans-serif bold;
 }
+*/
 
 .jaTenhoConta {
   cursor: pointer;
-  color: #DD88F7;
-  font-size: 14px;
+  color: white;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -520,15 +561,29 @@ body {
 
 
 /* Inicio Pagina de Login CSS */
-body {
-  background-color: #f5f5f5;
-  font-family: sans-serif;
+
+
+
+.entrar-com-email{
   text-align: center;
+  font-family: 'Lato', Arial, sans-serif bold;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px ;
+  color: white;
 }
 
-.fraseInicial {
-  font-size: 1.75rem;
+.img-pagina-login-logo-wine{
+  align-items: center;
+  width: 10%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 100px;
 }
+
+
 
 #email {
   display: flex;
@@ -562,6 +617,14 @@ body {
   margin: auto;
 }
 
+.checkbox-login{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: white;
+}
+
 .loginButton {
   outline: none;
   border-radius: 24px;
@@ -572,45 +635,49 @@ body {
   text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
-  color: rgb(0, 0, 0);
+  color: white;
   background-color: #DD88F7;
   border: 1px solid #B06cc4;
   width: 12rem;
   text-align: center;
-}
-
-.TDR {
-  background-color: white;
-  width: 100%;
-  height: 100%;
-  color: #111;
-  text-align:  center;
-  font-family: 'Lato', Arial, sans-serif bold;
-}
-
-.seBeber {
-  color: #1d1d1b;
-  font-family: 'Lato', Arial, sans-serif bold;
+  display: block;
 }
 
 .esqueciSenha {
   cursor: pointer;
-  color: #DD88F7;
+  color: white;
   font-size: 14px;
   font-weight: 500;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   
 }
 
-.novoCadastro {
+.novoCadastro-login {
   cursor: pointer;
-  color: #DD88F7;
+  color: white;
   font-size: 14px;
   font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .divisor {
   height: 0px;
   width: 200px;
+  text-align: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: white;
+}
+
+.pagina-login-css{
+  background-color: #c81a78;
 }
 
 /* Fim Pagina de login CSS */
@@ -618,14 +685,27 @@ body {
 
 
 /* Inicio Pagina de Nova Senha CSS */
-body {
-  background-color: #f5f5f5;
-  font-family: sans-serif;
-  text-align: center;
+
+.pagina-recuperar-senha-css{
+  background-color: #c81a78;
 }
 
-.fraseInicial {
-  font-size: 1.75rem;
+.entrar-com-email-pagina-recuperar{
+  text-align: center;
+  font-family: 'Lato', Arial, sans-serif bold;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px ;
+  color: white;
+}
+
+.digite-o-email{
+  text-align: center;
+  font-family: 'Lato', Arial, sans-serif bold;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px ;
+  color: white;
 }
 
 #email {
@@ -635,7 +715,7 @@ body {
   border: 1px solid rgb(204, 204, 204);
   border-radius: 8px;
   color: rgb(51, 51, 51);
-  font-family: Roboto;
+  font-family: 'Lato', Arial, sans-serif bold;
   font-weight: lighter;
   font-size: 20px;
   line-height: 20px;
@@ -649,50 +729,38 @@ body {
   border-radius: 24px;
   font-size: 14px;
   padding: 12px;
-  font-family: Roboto;
+  font-family: 'Lato', Arial, sans-serif bold;
   line-height: 20px;
   text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
-  color: rgb(0, 0, 0);
+  color: white;
   background-color: #DD88F7;
   border: 1px solid #B06cc4;
   width: 12rem;
   text-align: center;
 }
 
-.TDR {
-  background-color: white;
-  width: 100%;
-  height: 100%;
-  color: #111;
-  text-align:  center;
-  font-family: 'Lato', Arial, sans-serif bold;
-}
-
-.seBeber {
-  color: #1d1d1b;
-  font-family: 'Lato', Arial, sans-serif bold;
-}
-
 .esqueciSenha {
   cursor: pointer;
-  color: #DD88F7;
+  color:white;
   font-size: 14px;
   font-weight: 500;
   
 }
 
-.novoCadastro {
+.novoCadastro-login {
   cursor: pointer;
-  color: #DD88F7;
+  color:white;
   font-size: 14px;
   font-weight: 500;
+  text-align: center;
 }
 
 .divisor {
   height: 0px;
   width: 200px;
+  color: white;
 }
 /* Fim Pagina de Nova Senha */
 

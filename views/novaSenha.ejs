@@ -7,29 +7,24 @@
     <link rel="stylesheet" href="/stylesheets/style.css">
     <title>Nova Senha</title>
 </head>
-<body>
-
-     <!--header-->
-     <%- include('./partials/header') %>
-     <!-- header-->
-     
-        <form>
-            <img src="images/wine - logo top.svg" alt="Website logo" width="175" height="56">
-            <p class="fraseInicial">Digite o e-mail que você cadastrou:</p>
+<body>  
+        <form class="pagina-recuperar-senha-css">
+            <img class="img-pagina-login-logo-wine" src="images/wine - logo top.svg" alt="Website logo" width="175" height="56">
+            <p class="entrar-com-email-pagina-recuperar"> Digite o e-mail que você cadastrou</p>
             <div class="form">
-                <p><strong>Digite o e-mail que você cadastrou e em até uma hora receberá um link para mudar a senha</strong></p>
-                <input type="text" name="email" id="email" placeholder="e-mail">
+                <input type="text" name="email" id="email" placeholder="digite seu e-mail">
                 <br>
-                <input type="text" name="email" id="email" placeholder="confirmar e-mail">
+                <input type="text" name="email" id="email" placeholder="confirme seu e-mail">
                 <br>
                 <button type="submit" class="loginButton">Enviar</button>
                 <br>
+                <p class="digite-o-email"> Atenção - Até uma hora você irá receber um link no seu email para alterar sua senha </p>
             </div>
             <div>
                 <br>
-                <a href="/login" class="esqueciSenha">Ir para a tela de login</a>
+                <a href="/login" class="esqueciSenha"> Entrar novamente </a>
                 <hr class="divisor">
-                <a href="/cadastro" class="novoCadastro">Novo cadastro</a>
+                <a href="/cadastro" class="novoCadastro-login"> Criar nova conta </a>
             </div>
         </form>
     <br>

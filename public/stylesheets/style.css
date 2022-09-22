@@ -225,6 +225,26 @@ li a{
 
 /* Inicio Pagina Index */
 
+#carouselExampleIndicators{
+  width: 75%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.img-brinde-wine{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 60%;
+ height: 100%;
+ padding-bottom: 50px;
+}
+
+
 
 .img-index-wine{
   width: 1903px;
@@ -382,7 +402,7 @@ section .vinhos{
 }
 
 .arte-wine-20 .wine-20{
-   width: 75%;
+   width: 60%;
    height: 100%;
    padding-bottom: 50px;
    display: block;

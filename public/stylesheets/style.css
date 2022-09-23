@@ -138,15 +138,17 @@ ul .tex-shop-1-1{
 }
 
 .row{
-  margin-right: 15px;
-  margin-left:  15px;
+  width: 100%;
+  height: 100%;
 }
 
 .Footer__separator{
   margin-top: 20px;
-  border: 0.10 solid #d5d5d5;
+  border: 0.50 solid #d5d5d5;
   box-sizing: border-box;
+  
 }
+
 
 .text-shop-2{
   width:100%;
@@ -243,8 +245,6 @@ li a{
  height: 100%;
  padding-bottom: 50px;
 }
-
-
 
 .img-index-wine{
   width: 1903px;
@@ -366,9 +366,9 @@ li a{
 }
 
 .ofertas-especiais-vinhos{
-    background-color: #c81a78;
     text-align: center;
-    color: white;
+    background-color:  #6f42c1;
+    color:white;
     font-family: 'Lato', Arial, sans-serif bold;
     width: 75%;
     height: 100%;
@@ -377,6 +377,7 @@ li a{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-size: 20px;
 }
 
 .flexrow{
@@ -447,7 +448,7 @@ section .vinhos{
 /* Inicio Pagina Cadastro */
 
 .crie-sua-conta {
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Lato', Arial, sans-serif bold;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -477,7 +478,7 @@ section .vinhos{
 .img-pagina-cadastro-logo-wine{
   width: 10%;
   height: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 
 .checkbox{
@@ -497,7 +498,8 @@ section .vinhos{
   border-radius: 8px;
   color: rgb(51, 51, 51);
   font-family: 'Lato', Arial, sans-serif bold;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 15px;
   line-height: 20px;
   box-sizing: border-box;
   padding: 27px 16px 10px;
@@ -510,7 +512,7 @@ section .vinhos{
   border-radius: 24px;
   font-size: 14px;
   padding: 12px;
-  font-family: Roboto;
+  font-family: 'Lato', Arial, sans-serif bold;
   line-height: 20px;
   text-transform: uppercase;
   margin-left: auto;
@@ -540,8 +542,9 @@ section .vinhos{
 .jaTenhoConta {
   cursor: pointer;
   color: white;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: 600;
 }
 
 /* Fim Pagina Cadastro */
@@ -587,7 +590,7 @@ section .vinhos{
 .entrar-com-email{
   text-align: center;
   font-family: 'Lato', Arial, sans-serif bold;
-  font-size: 25px;
+  font-size: 20px;
   padding-top: 15px;
   padding-bottom: 15px ;
   color: white;
@@ -600,7 +603,8 @@ section .vinhos{
   margin-left: auto;
   margin-right: auto;
   display: block;
-  padding-top: 100px;
+  padding-bottom: 25px;
+  padding-top: 70px;
 }
 
 
@@ -612,7 +616,7 @@ section .vinhos{
   border: 1px solid rgb(204, 204, 204);
   border-radius: 8px;
   color: rgb(51, 51, 51);
-  font-family: Roboto;
+  font-family: 'Lato', Arial, sans-serif bold;
   font-weight: lighter;
   font-size: 20px;
   line-height: 20px;
@@ -628,9 +632,9 @@ section .vinhos{
   border: 1px solid rgb(204, 204, 204);
   border-radius: 8px;
   color: rgb(51, 51, 51);
-  font-family: Roboto;
-  font-weight: lighter;
-  font-size: 20px;
+  font-family: 'Lato', Arial, sans-serif bold;
+  font-weight: 400;
+  font-size: 15px;
   line-height: 20px;
   box-sizing: border-box;
   padding: 27px 16px 10px;
@@ -641,16 +645,19 @@ section .vinhos{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  padding-right: 2px;
   display: block;
   color: white;
 }
+
+
 
 .loginButton {
   outline: none;
   border-radius: 24px;
   font-size: 14px;
   padding: 12px;
-  font-family: Roboto;
+  font-family: 'Lato', Arial, sans-serif bold;
   line-height: 20px;
   text-transform: uppercase;
   margin-left: auto;
@@ -669,10 +676,9 @@ section .vinhos{
   font-size: 14px;
   font-weight: 500;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  
+  font-family: 'Lato', Arial, sans-serif bold;
+  text-decoration: none;
+  margin-right: 20px;
 }
 
 .novoCadastro-login {
@@ -680,21 +686,21 @@ section .vinhos{
   color: white;
   font-size: 14px;
   font-weight: 500;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  font-family: 'Lato', Arial, sans-serif bold;
+  text-decoration: none;
+  text-align: center;
 }
 
-.divisor {
-  height: 0px;
-  width: 200px;
-  text-align: center;
-  text-align: center;
+.senha-cadastro-login{
+  display: flex;
   margin-left: auto;
-  margin-right: auto;
-  display: block;
-  color: white;
+  margin-left: auto;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 16px;
 }
+
+
 
 .pagina-login-css{
   background-color: #c81a78;
@@ -706,6 +712,15 @@ section .vinhos{
 
 /* Inicio Pagina de Nova Senha CSS */
 
+.senha-cadastro-senha{
+  display: flex;
+  margin-left: auto;
+  margin-left: auto;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
 .pagina-recuperar-senha-css{
   background-color: #c81a78;
 }
@@ -713,7 +728,7 @@ section .vinhos{
 .entrar-com-email-pagina-recuperar{
   text-align: center;
   font-family: 'Lato', Arial, sans-serif bold;
-  font-size: 25px;
+  font-size: 20px;
   padding-top: 15px;
   padding-bottom: 15px ;
   color: white;
@@ -723,8 +738,8 @@ section .vinhos{
   text-align: center;
   font-family: 'Lato', Arial, sans-serif bold;
   font-size: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px ;
+  padding-top: 5px;
+  padding-bottom: 5px ;
   color: white;
 }
 
@@ -736,8 +751,8 @@ section .vinhos{
   border-radius: 8px;
   color: rgb(51, 51, 51);
   font-family: 'Lato', Arial, sans-serif bold;
-  font-weight: lighter;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 15px;
   line-height: 20px;
   box-sizing: border-box;
   padding: 27px 16px 10px;
@@ -859,6 +874,29 @@ section .vinhos{
 }
 
 /* Fim Pagina de Pagamento CSS */
+
+
+/* Inicio Pagina Sobre*/
+
+.container-pag-sobre{
+  text-align: center;
+}
+
+.text-history{
+  padding-top: 20px;
+padding-bottom: 40px;
+}
+
+.imagem-historia-wine{
+  display: flex;
+}
+
+.text-nossa-historia{
+  
+}
+
+
+/* Fim Pagina Sobre*/
 
 
 /* Pagina Produtos */

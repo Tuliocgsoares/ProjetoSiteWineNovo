@@ -16,6 +16,9 @@ const historicoPedidosRouter = require('./routes/historicoPedidos');
 const produtosRouter = require('./routes/produtos');
 const sobreRouter = require('./routes/sobre');
 const itemRouter = require('./routes/item');
+const trabalheRouter = require('./routes/trabalhe');
+
+
 
 const app = express();
 
@@ -42,11 +45,7 @@ app.use('/historicoPedidos', historicoPedidosRouter);
 app.use('/produtos', produtosRouter);
 app.use('/sobre', sobreRouter);
 app.use('/item', itemRouter);
-
-
-
-
-
+app.use('/trabalhe', trabalheRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

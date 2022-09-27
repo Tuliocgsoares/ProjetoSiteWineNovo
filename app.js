@@ -17,6 +17,16 @@ const produtosRouter = require('./routes/produtos');
 const sobreRouter = require('./routes/sobre');
 const itemRouter = require('./routes/item');
 const trabalheRouter = require('./routes/trabalhe');
+const formRouter = require('./routes/form')
+
+
+
+const methodOverride = require('method-override');
+const initialRoutes = require('./routes/initial.routes');
+const usersRoutes = require('./routes/users.routes');
+
+
+
 
 
 
@@ -46,6 +56,25 @@ app.use('/produtos', produtosRouter);
 app.use('/sobre', sobreRouter);
 app.use('/item', itemRouter);
 app.use('/trabalhe', trabalheRouter);
+
+
+
+
+
+
+
+
+// permitir que o servidor use o método PUT e DELETE
+app.use(methodOverride('_method'));
+
+
+// rotas
+app.use('/', initialRoutes);
+app.use('/users', usersRoutes);
+
+
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

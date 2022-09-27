@@ -10,22 +10,22 @@
     <title> Wine Mix </title>
 </head>
 
-<main class="pagina-cadastro-background">
+<main class="pagina-cadastro-background" method="POST">
     <body class="alinhar-dois-itens">
         <form>
             <img class="img-pagina-cadastro-logo-wine" src="images/wine - logo top.svg" alt="Website logo" width="175" height="56">
             <p class="crie-sua-conta"> Crie sua conta agora </p>
             <div class="form">
                 <div class="input">
-                    <input type="text" name="nome" id="nome" placeholder="nome">
+                    <input type="text" name="nome" id="nome" placeholder="nome" required>
                     <br>
-                    <input type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome">
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome" required>
                     <br>
-                    <input type="text" name="email" id="email" placeholder="e-mail">
+                    <input type="text" name="email" id="email" placeholder="e-mail" required>
                     <br>
-                    <input type="password" name="senha" id="password" placeholder="senha">
+                    <input type="password" name="senha" id="password" placeholder="senha" required>
                     <br>
-                    <input type="text" name="endereco" id="endereco" placeholder="endereço">
+                    <input type="text" name="endereco" id="endereco" placeholder="endereço" required>
                     <br>
                 </div>
                 <div class="checkbox">
@@ -39,6 +39,8 @@
                 <a href="/login" class="jaTenhoConta"> Já tenho conta, entrar </a>
             </div>
         </form>
+
+
     </body>
 </main>
 </html>

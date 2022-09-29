@@ -545,8 +545,11 @@ section .vinhos{
   cursor: pointer;
   color: white;
   font-size: 15px;
-  margin-top: 10px;
   font-weight: 600;
+  text-align: center;
+  font-family: 'Lato', Arial, sans-serif bold;
+  text-decoration: none;
+  margin-right: 20px;
 }
 
 /* Fim Pagina Cadastro */
@@ -672,11 +675,11 @@ section .vinhos{
   display: block;
 }
 
-.esqueciSenha {
+.hiperLinks {
   cursor: pointer;
   color: white;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 600;
   text-align: center;
   font-family: 'Lato', Arial, sans-serif bold;
   text-decoration: none;
@@ -686,20 +689,23 @@ section .vinhos{
 .novoCadastro-login {
   cursor: pointer;
   color: white;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
   font-family: 'Lato', Arial, sans-serif bold;
   text-decoration: none;
-  text-align: center;
+  margin-right: 20px;
 }
 
 .senha-cadastro-login{
-  display: flex;
-  margin-left: auto;
-  margin-left: auto;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
   text-align: center;
-  justify-content: center;
-  padding-bottom: 16px;
+  font-family: 'Lato', Arial, sans-serif bold;
+  text-decoration: none;
+  margin-right: 20px;
 }
 
 
@@ -780,18 +786,25 @@ section .vinhos{
 
 .esqueciSenha {
   cursor: pointer;
-  color:white;
-  font-size: 14px;
-  font-weight: 500;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Lato', Arial, sans-serif bold;
+  text-decoration: none;
+  margin-right: 20px;
   
 }
 
 .novoCadastro-login {
   cursor: pointer;
-  color:white;
-  font-size: 14px;
-  font-weight: 500;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
   text-align: center;
+  font-family: 'Lato', Arial, sans-serif bold;
+  text-decoration: none;
+  margin-right: 20px;
 }
 
 .divisor {

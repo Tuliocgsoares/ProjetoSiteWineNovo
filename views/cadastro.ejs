@@ -1,45 +1,41 @@
 <!DOCTYPE html>
-<html class="pagina-cadastro-color" lang="pt-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/stylesheets/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title> Wine Mix </title>
+    <title>Novo Cadastro</title>
 </head>
-
-    <body class="alinhar-dois-itens">
-        <form class="pagina-cadastro-background" method="POST">
-            <img class="img-pagina-cadastro-logo-wine" src="images/wine - logo top.svg" alt="Website logo" width="175" height="56">
-            <div 
-            <p class="crie-sua-conta"> Crie sua conta agora </p>
-            <div class="form">
-                <div class="input">
-                    <input type="text" name="nome" id="nome" placeholder="nome" required>
-                    <br>
-                    <input type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome" required>
-                    <br>
-                    <input type="text" name="email" id="email" placeholder="e-mail" required>
-                    <br>
-                    <input type="password" name="senha" id="password" placeholder="senha" required>
-                    <br>
-                    <input type="text" name="endereco" id="endereco" placeholder="endereço" required>
-                    <br>
-                </div>
-                <div class="checkbox">
-                    <label> <input type="checkbox" name="termos" value="termos"> Concordo com os Termos e Condições </label>
-                </div>
+<body>
+    <form class="pagina-cadastro-background" method="POST">
+        <img class="img-pagina-cadastro-logo-wine" src="images/winemix-logo-home.svg" alt="Website logo" width="175" height="56">
+        <p class="crie-sua-conta"> Crie sua conta agora </p>
+        <div class="form">
+            <div class="input">
+                <input type="text" name="nome" id="nome" placeholder="nome" required>
                 <br>
-                <button type="submit" class="loginButton"> Cadastrar </button>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome" required>
+                <br>
+                <input type="text" name="email" id="email" placeholder="e-mail" required>
+                <br>
+                <input type="password" name="senha" id="password" placeholder="senha" required>
+                <br>
+                <input type="text" name="endereco" id="endereco" placeholder="endereço" required>
                 <br>
             </div>
-            <div>
-                <a href="/login" class="jaTenhoConta"> Já tenho conta, entrar </a>
+            <div class="checkbox">
+                <label> <input type="checkbox" name="termos" value="termos"> Concordo com os Termos e Condições </label>
             </div>
-        </form>
-    </body>
+            <br>
+            <button type="submit" class="loginButton"> Cadastrar </button>
+            <br>
+        </div>
+        <div>
+            <a href="/login" class="jaTenhoConta"> Já tenho uma conta </a>
+        </div>
+    </form>
+</body>
 <!--footer-->
 <%- include('./partials/footer') %>
 <!-- footer-->

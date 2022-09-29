@@ -7,32 +7,30 @@
     <link rel="stylesheet" href="/stylesheets/style.css">
     <title>Login page</title>
 </head>
-<body class="">
-       
+<body>
     <form class="pagina-login-css" method="POST">
-            <img class="img-pagina-login-logo-wine" src="images/wine - logo top.svg" alt="Website logo" width="175" height="56">
-            <p class="entrar-com-email"> Entrar com e-mail e senha </p>
-            <div class="form">
-                <input type="text" name="email" id="email" placeholder="digite seu e-mail" required>
-                <br>
-                <input type="password" name="senha" id="password" placeholder="digite sua senha" required>
-                <br>
-                <div class="checkbox-login">
-                    <label> <input type="checkbox" name="rememberMe" value="rememberMe"> Lembrar meu login </label>
-                </div>
-                <br>
-                <!--<input type="submit" value="entrar" class="Loginbutton">-->
-                <button type="submit" class="loginButton"> Entrar </button>
-                <br>
+        <img class="img-pagina-login-logo-wine" src="images/winemix-logo-home.svg" alt="Website logo" width="85" height="85">
+        <p class="entrar-com-email"> Entrar com e-mail e senha </p>
+        <div class="form">
+            <input type="text" name="email" id="email" placeholder="digite seu e-mail" required>
+            <br>
+            <input type="password" name="senha" id="password" placeholder="digite sua senha" required>
+            <br>
+            <div class="checkbox-login">
+                <label> <input type="checkbox" name="rememberMe" value="rememberMe"> Lembrar meu login </label>
             </div>
-            <div class="senha-cadastro-login">
-                <a href="/novaSenha" class="esqueciSenha">Esqueci a senha</a>
-                <a href="/cadastro" class="novoCadastro-login"> Novo cadastro </a>
-            </div>
-        </form>
-   <!--footer-->
-   <%- include('./partials/footer') %>
-   <!-- footer-->
-   
+            <br>
+            <!--<input type="submit" value="entrar" class="Loginbutton">-->
+            <button type="submit" class="loginButton"> Entrar </button>
+            <br>
+        </div>
+        <div class="senha-cadastro-senha">
+            <a href="/novaSenha" class="senha-cadastro-login">Esqueci a senha </a>
+            <a href="/cadastro" class="novoCadastro-login"> Novo cadastro </a>
+        </div>
+    </form>
 </body>
+<!--footer-->
+<%- include('./partials/footer') %>
+<!-- footer-->
 </html>

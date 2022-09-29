@@ -17,7 +17,6 @@ const produtosRouter = require('./routes/produtos');
 const sobreRouter = require('./routes/sobre');
 const itemRouter = require('./routes/item');
 const trabalheRouter = require('./routes/trabalhe');
-const formRouter = require('./routes/form')
 
 
 

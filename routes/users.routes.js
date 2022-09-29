@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const multer = require('multer');
 
-const { storage } = require('./config/upload');
+const { storage } = require('../config/upload');
 
 const UserController = require('../controllers/UserController');
 

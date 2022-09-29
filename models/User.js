@@ -1,9 +1,9 @@
 const fs = require('fs');
 const {v4} = require('uuid');
 
-let db = require('./database/db.json');
+let db = require('../database/db.json');
 
-const { uploadPath } = require('./config/upload');
+const { uploadPath } = require('../config/upload');
 
 const writeToDB = () => {
   const json = JSON.stringify(db);

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>Usuário</title>
+</head>
+
+<!--header-->
+<%- include('./partials/header') %>
+<!-- header-->
+  
+<body>
+  <h1> Área Restrita </h1>
+  <p> Bem vindo a área restrita, <u>somente usuários logados podem ver essa página!</u> </p>
+
+  <!-- Mostra os dados da sessão do usuário logado e permite alteração dos dados-->
+  <div class="profile-usuario">
+    <form class="" action="" method="">
+      <div>
+        <p> Nome: <%= user.nome %></p>
+        <input type="text" name="nome" id="nome" placeholder="alterar nome">
+      </div>
+      <div>
+        <p> Sobrenome: <%= user.sobrenome %></p>
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="alterar sobrenome">
+      </div>
+      <div>
+        <p> Email: <%= user.email %> </p>
+        <input type="text" name="email" id="email" placeholder="alterar e-mail">
+      </div>
+      <div>
+        <p> Endereço do Usuário: <%= user.endereco %></p>
+        <input type="text" name="endereco" id="endereco" placeholder="alterar endereço">
+      </div>
+      <div>
+        <p> Senha: <%=user.senha%></p>
+        <input type="password" name="senha" id="password" placeholder="alterar senha">
+      </div>
+      <div>
+  <!-- Cancela as modificações feitas nos dados recarregando a página -->
+      <button href="/areaRestrita" class=""> Cancelar </button>
+      </div>
+  <!-- Salva as modificações nos dados do usuário utilizando o método (a definir) -->
+      <div>
+        <button type="submit" class=""> Salvar </button>
+      </div>
+    </form>
+  </div>
+  
+  <!-- Direciona o usuário logado para a página de histórico de pedidos -->
+  <form action="/pedidos" method="POST">
+    <button href="/historicoPedidos">Histórico de pedidos</button>
+  </form>
+    
+  <!-- Formulário aponta para a rota de logout utilizando o método POST -->
+  <form action="/logout" method="POST">
+    <button href="/login">Fazer Logout</button>
+  </form>
+</body>
+<!--footer-->
+<%- include('./partials/footer') %>
+<!-- footer-->
+</html>

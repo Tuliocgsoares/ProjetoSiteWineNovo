@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/stylesheets/style.css">
-    <title>Login</title>
+    <title> Login </title>
 </head>
 <body>
+    <main>
     <form class="pagina-login-css" action="/login" method="POST">
         <img class="img-pagina-login-logo-wine" src="images/winemix-logo-home.svg" alt="Website logo" width="85" height="85">
         <p class="entrar-com-email"> Entrar com e-mail e senha </p>
@@ -20,7 +21,6 @@
                 <label> <input type="checkbox" name="rememberMe" value="rememberMe"> Lembrar meu login </label>
             </div>
             <br>
-            <!--<input type="submit" value="entrar" class="Loginbutton">-->
             <button type="submit" class="loginButton"> Entrar </button>
             <br>
         </div>
@@ -29,9 +29,8 @@
             <a href="/Formcadastro" class="novoCadastro-login"> Criar conta </a>
         </div>
     </form>
+    </main>
+    <%- include('./partials/footer') %>
 </body>
-<!--footer-->
-<%- include('./partials/footer') %>
-<!-- footer-->
 </html>
 

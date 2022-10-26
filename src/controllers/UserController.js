@@ -76,6 +76,10 @@ const UserController = {
     return res.render('trabalhe');
   },
 
+  renderVinhos: (req, res) => {
+    return res.render('vinhos');
+  },
+
   renderIndex: (req, res) => {
     // Renderiza a página inicial (index)
     return res.render('index');

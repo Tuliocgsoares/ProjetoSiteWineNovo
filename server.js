@@ -21,6 +21,9 @@ server.use(express.static(__dirname + '/public'));
 // permite o uso de req.body
 server.use(express.urlencoded({extended: false}));
 
+//possibilita converter as infomrções do req.body em json
+//app.use(express.json());
+
 // Define o uso de sessões
 server.use(session({
     secret: 'asd7394asdjs83_asd&&ad#f@50gmdualg89674ahfpa',

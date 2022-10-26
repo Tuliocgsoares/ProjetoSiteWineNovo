@@ -102,7 +102,6 @@ footer{
   width: 100%;
   height: 100%;
   font-family: 'Lato', Arial, sans-serif bold;
-
 }
 
 .TDR{
@@ -111,7 +110,7 @@ footer{
   height: 100%;
   color: #111;
   text-align:  center;
-  font-family: 'Lato', Arial, sans-serif bold;
+  font-family: 'Lato', Arial, sans-serif;
 }
 
 ul .tex-shop-1-1{
@@ -119,21 +118,23 @@ ul .tex-shop-1-1{
   padding: 10px 10px 10px 10px;
   text-align: center;
   justify-content: center;
-  
+  font-family: 'Lato', Arial, sans-serif bold;
 }
 
 .text-shop-1{
-  width:100%;
+  width: 100%;
   height: 17px;
   font: 14px;
   color: #1d1d1b;
   text-transform: uppercase;
   margin: 0 0 5px;
+  font-family: 'Lato', Arial, sans-serif bold;
+
 }
 
 .seBeber{
   color: #1d1d1b;
-  font-family: 'Lato', Arial, sans-serif bold;
+  font-family: 'Lato', Arial, sans-serif;
 }
 
 .row{
@@ -155,6 +156,7 @@ ul .tex-shop-1-1{
   color: #1d1d1b;
   text-transform: uppercase;
   margin: 0 0 5px;
+  font-family: 'Lato', Arial, sans-serif bold;
 }
 
 #footer-001{
@@ -188,17 +190,23 @@ ul .tex-shop-1-1{
 
 .tex-shop-1-1 li{
   padding: 1px;
+  font-family: 'Lato', Arial, sans-serif bold;
+
 }
 
 li {
   list-style-type: none;
   color: #666;
   width: 170px;
+  font-family: 'Lato', Arial, sans-serif bold;
+
 }
 
 li a{
   text-decoration: none;
   color: #666;
+  font-family: 'Lato', Arial, sans-serif bold;
+
 }
 
 .list-social-media{
@@ -220,6 +228,8 @@ li a{
 .socialmedia{
   background-color: #666666;
 }
+
+
 
 /* Fim partials footer css */
 
@@ -438,13 +448,27 @@ section .vinhos{
     align-items: center;
 }
 
+.images-wine-two{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 100%;
+  background-color:#c81a78;
+  display: flex;
+}
+
+.new-world-text{
+  color: white;
+  font-size: 30px;
+}
+
 /* Fim Pagina Index */
 
 /* Inicio Pagina Cadastro */
 
 .crie-sua-conta {
   font-size: 20px;
-  font-family: 'Lato', Arial, sans-serif bold;
+  font-family: 'Lato', Arial, sans-serif;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -479,6 +503,8 @@ section .vinhos{
 
 .checkbox{
   padding-left: 10px;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 14px;
 }
 
 .img-pagina-cadastro{
@@ -508,7 +534,7 @@ section .vinhos{
   border-radius: 24px;
   font-size: 14px;
   padding: 12px;
-  font-family: 'Lato', Arial, sans-serif bold;
+  font-family: 'Lato', Arial, sans-serif;
   line-height: 20px;
   text-transform: uppercase;
   margin-left: auto;
@@ -519,21 +545,6 @@ section .vinhos{
   width: 12rem;
   text-align: center;
 }
-/*
-.TDR {
-  background-color: white;
-  width: 100%;
-  height: 100%;
-  color: #111;
-  text-align:  center;
-  font-family: 'Lato', Arial, sans-serif bold;
-}
-
-.seBeber {
-  color: #1d1d1b;
-  font-family: 'Lato', Arial, sans-serif bold;
-}
-*/
 
 .jaTenhoConta {
   cursor: pointer;
@@ -541,9 +552,8 @@ section .vinhos{
   font-size: 15px;
   font-weight: 600;
   text-align: center;
-  font-family: 'Lato', Arial, sans-serif bold;
+  font-family: 'Lato', Arial, sans-serif;
   text-decoration: none;
-  margin-right: 20px;
 }
 
 /* Fim Pagina Cadastro */
@@ -573,7 +583,7 @@ section .vinhos{
 
 .entrar-com-email{
   text-align: center;
-  font-family: 'Lato', Arial, sans-serif bold;
+  font-family: 'Lato', Arial, sans-serif;
   font-size: 20px;
   padding-top: 15px;
   padding-bottom: 15px ;
@@ -598,7 +608,7 @@ section .vinhos{
   border: 1px solid rgb(204, 204, 204);
   border-radius: 8px;
   color: rgb(51, 51, 51);
-  font-family: 'Lato', Arial, sans-serif bold;
+  font-family: 'Lato', Arial, sans-serif;
   font-weight: lighter;
   font-size: 20px;
   line-height: 20px;
@@ -614,7 +624,7 @@ section .vinhos{
   border: 1px solid rgb(204, 204, 204);
   border-radius: 8px;
   color: rgb(51, 51, 51);
-  font-family: 'Lato', Arial, sans-serif bold;
+  font-family: 'Lato', Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
@@ -630,6 +640,8 @@ section .vinhos{
   padding-right: 2px;
   display: block;
   color: white;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 14px;
 }
 
 .loginButton {
@@ -637,7 +649,7 @@ section .vinhos{
   border-radius: 24px;
   font-size: 14px;
   padding: 12px;
-  font-family: 'Lato', Arial, sans-serif bold;
+  font-family: 'Lato', Arial, sans-serif;
   line-height: 20px;
   text-transform: uppercase;
   margin-left: auto;
@@ -667,7 +679,7 @@ section .vinhos{
   font-size: 15px;
   font-weight: 600;
   text-align: center;
-  font-family: 'Lato', Arial, sans-serif bold;
+  font-family: 'Lato', Arial, sans-serif;
   text-decoration: none;
   margin-right: 20px;
 }
@@ -678,7 +690,7 @@ section .vinhos{
   font-size: 15px;
   font-weight: 600;
   text-align: center;
-  font-family: 'Lato', Arial, sans-serif bold;
+  font-family: 'Lato', Arial, sans-serif;
   text-decoration: none;
   margin-right: 20px;
 }
@@ -698,6 +710,8 @@ section .vinhos{
   text-align: center;
   justify-content: center;
   padding-bottom: 20px;
+  font-family: 'Lato', Arial, sans-serif bold;
+
 }
 
 .pagina-recuperar-senha-css{
@@ -706,8 +720,8 @@ section .vinhos{
 
 .entrar-com-email-pagina-recuperar{
   text-align: center;
-  font-family: 'Lato', Arial, sans-serif bold;
-  font-size: 20px;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 18px;
   padding-top: 15px;
   padding-bottom: 15px ;
   color: white;
@@ -715,7 +729,7 @@ section .vinhos{
 
 .digite-o-email{
   text-align: center;
-  font-family: 'Lato', Arial, sans-serif bold;
+  font-family: 'Lato', Arial, sans-serif ;
   font-size: 15px;
   padding-top: 5px;
   padding-bottom: 5px ;
@@ -729,7 +743,7 @@ section .vinhos{
   border: 1px solid rgb(204, 204, 204);
   border-radius: 8px;
   color: rgb(51, 51, 51);
-  font-family: 'Lato', Arial, sans-serif bold;
+  font-family: 'Lato', Arial, sans-serif ;
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
@@ -743,7 +757,7 @@ section .vinhos{
   border-radius: 24px;
   font-size: 14px;
   padding: 12px;
-  font-family: 'Lato', Arial, sans-serif bold;
+  font-family: 'Lato', Arial, sans-serif ;
   line-height: 20px;
   text-transform: uppercase;
   margin-left: auto;
@@ -753,6 +767,7 @@ section .vinhos{
   border: 1px solid #B06cc4;
   width: 12rem;
   text-align: center;
+  margin-top: 20px;
 }
 
 .esqueciSenha {
@@ -761,7 +776,7 @@ section .vinhos{
   font-size: 15px;
   font-weight: 600;
   text-align: center;
-  font-family: 'Lato', Arial, sans-serif bold;
+  font-family: 'Lato', Arial, sans-serif ;
   text-decoration: none;
   margin-right: 20px;
   
@@ -773,7 +788,7 @@ section .vinhos{
   font-size: 15px;
   font-weight: 600;
   text-align: center;
-  font-family: 'Lato', Arial, sans-serif bold;
+  font-family: 'Lato', Arial, sans-serif ;
   text-decoration: none;
   margin-right: 20px;
 }
@@ -956,3 +971,63 @@ section .vinhos{
 }
 
 /* Fim Pagina Trabalhe Conosco*/
+
+/*Inicio Pagina Vinhos*/
+
+.imagem-vinhos-pagina{
+  width: 100%;
+  height: 100%;
+}
+
+.container-pagina-vinhos{
+  background-color: #f5f5f5;
+}
+
+.vinhos-varios-itens{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagem-vinho-paine{
+  width: 100%;
+}
+
+.part-2-paine{
+  width: 25%;
+}
+
+.text-paine-cabernet{
+  color: #111;
+  font-size: 20px;
+  font-family: 'Lato', Arial, sans-serif bold;
+  font-weight: 750;
+}
+
+.text-comentary{
+  color: #000000;
+  font-family: 'Lato', Arial, sans-serif bold;
+  font-weight: 600;
+}
+
+.text-descriition-wine{
+  text-align: justify;
+  font-family: 'Lato', Arial, sans-serif bold;
+}
+
+.vinhos-add-botao{
+  background-color: rgb(0, 167, 72);
+  border-radius: 24px;
+  font-size: 15px;
+  padding: 12px;
+  font-family: 'Lato', Arial, sans-serif;
+  line-height: 20px;
+  color: white;
+  border: 1px solid rgb(0, 167, 72);
+  width: 12rem;
+  text-align: center;
+  display: block;
+}
+
+/*Fim Pagina Vinhos*/
+

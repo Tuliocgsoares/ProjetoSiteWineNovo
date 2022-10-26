@@ -42,6 +42,6 @@ server.use(userIsAuthenticated);
 server.use('/', privateRoutes);
 
 // inicialização do servidor
-server.listen(3000, () => {
-    console.log('Servidor inicializado na porta 3000');
+server.listen(4000, () => {
+    console.log('Servidor inicializado na porta 4000');
 });

@@ -39,9 +39,10 @@ router.get('/sobre', UserController.renderSobre);
 // Renderiza a página trabalhe conosco
 router.get('/trabalhe', UserController.renderTrabalheConosco);
 
+// Renderiza a pagina Vinhos
+router.get('/vinhos', UserController.renderVinhos);
+
 // Renderiza a página inicial (index)
 router.get('/', UserController.renderIndex);
-
-
 
 module.exports = router;

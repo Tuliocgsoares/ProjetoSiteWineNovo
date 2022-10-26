@@ -85,6 +85,5 @@ renderCheckout: (req, res) => {
   return res.render('checkout');
   }
 
-
 }
 module.exports = UserController;

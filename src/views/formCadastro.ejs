@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/stylesheets/style.css">
-    <title>Novo Cadastro</title>
+    <title> Novo Cadastro </title>
 </head>
 <body>
-    <!-- Formulário aponta para a rota de cadastro utilizando o método POST -->
     <form class="pagina-cadastro-background" action="/cadastro" method="POST">
         <img class="img-pagina-cadastro-logo-wine" src="images/winemix-logo-home.svg" alt="Website logo" width="175" height="56">
         <p class="crie-sua-conta"> Crie sua conta agora </p>
@@ -36,8 +35,6 @@
             <a href="/login" class="jaTenhoConta"> Já tenho uma conta </a>
         </div>
     </form>
+   <%- include('./partials/footer') %> 
 </body>
-<!--footer-->
-<%- include('./partials/footer') %>
-<!-- footer-->
 </html>
